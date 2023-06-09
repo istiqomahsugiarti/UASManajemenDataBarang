@@ -1,0 +1,22 @@
+footer {
+    text-align: center;
+    color: navy;
+    background-color: ;
+    font-style: oblique;
+    margin: 0px;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    text-overflow: ellipsis;
+}
+
+.me {
+    border: 2px dashed navy;
+    width: 15%;
+    float: left;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: auto;
+    nav: fixed;
+    background-color: midnightblue;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+}

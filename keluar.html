@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" a href="css/bootstrap.css">
+    <title>Document</title>
+</head>
+<body class="bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 m-auto">
+            <div class="card mt-5">
+                <div class="card-title">
+                    <h3 class="bg-success text-white text-center py-3">Pendataan Barang Masuk</h3>
+                </div>
+                <div class="card-body">
+                    <fieldset style="width: min-content;">
+                        <label for="nama">Nama : </label>
+                        <input class="center" type="text" name="name" id="name"><br>
+                        <label for="Barang"> Id Barang :</label>
+                        <input type="text" name="barang" id="barang"><br>
+                        <label for="tgl">Tanggal Barang Masuk </label>
+                        <input type="date" name="tgl" id="tgl" min="1987-01-01" max="1993-01-01"><br>
+                    </fieldset>
+                    <fieldset style="width: max-content;">
+                        <tr>
+                            <td>Tipe Barang</td>
+                            <td>:</td>
+                            <td>
+                                <input type="radio" name="keras" id="keras" value="male" /> Keras 
+                                <input type="radio" name="lunak" id="Lunak" value="female" /> Lunak 
+                            </td>
+                        </tr><br>
+                    </fieldset>
+                    <fieldset style="width: min-content;">
+                        <label for="nama"> Keterangan Barang : </label>
+                        <input class="center" type="text" name="Keterangan" id="Keterangan" placeholder="Keterangan Barang"><br>
+                    </fieldset>
+                    <input class="bg-success text-white text-center py-1" type="submit" name="submit" id="submit" value="submit">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
